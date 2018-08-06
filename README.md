@@ -188,7 +188,7 @@ class App extends Component {
               },
               // Component will be loaded when appear in to viewport
               loadOnView: true,
-              //Component will be loaded when scroll down 200px from it
+              //Component will be loaded when scroll down 300px from it
               fromBottom: 300,
               loading: () => <h1>Scroll down 300px from me to load</h1>,
               loaded: () => import("./component/Loaded3"),
